@@ -15,7 +15,7 @@ a {
 /*  Header */
 
 .header {
-    
+
 }
 
 .header-navigation {
@@ -43,6 +43,7 @@ a {
 
 .header-navigation-list {}
 
+
 .header-navigation-list li>a {
     color: #2E2F42;
     font-size: 16px;
@@ -50,6 +51,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.header-navigation-list-item-link
 
 .header-navigation-list li > a:hover,
 .header-navigation-list li > a:focus {
@@ -63,11 +66,12 @@ a {
     text-decoration-thickness: 4px;
 }
 
-.header-address {}
+.header-address {
+    font-style: normal;
+}
 
 
 .header-address-list li>a {
-    font-style: normal;
     font-family: inherit;
     color: #434455;
     font-size: 16px;
@@ -87,7 +91,12 @@ a {
 }
 
 .header-address-list-email {
+
 }
+
+.header-address-list-email-link {}
+
+.header-address-list-phone-link {}
 
 .header-address-list-phone {}
 
@@ -173,13 +182,13 @@ a {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
 .section-team-list>li {
-    background: var(--WHITE, #FFF);
+    background: #FFF;
 }
 
 .section-team-list-item {}
@@ -188,20 +197,20 @@ a {
 
 .section-team-list-item-name {
     color: #2E2F42;
-        text-align: center;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .section-team-list-item-para {
     color: #434455;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* end section Team */
@@ -222,7 +231,6 @@ a {
 .section-portfolio-list {}
 
 .section-portfolio-list>li {
-    border: 1px solid #E7E9FC;
     background: #FFF;
 }
 
@@ -253,7 +261,7 @@ a {
     background: #2E2F42;
 }
 
-.footer-link {
+.footer-link span {
     font-family: 'Raleway', sans-serif;
     color: #F4F4FD;
     font-family: 'Raleway';
@@ -264,7 +272,7 @@ a {
     text-transform: uppercase;
 }
 
-.footer-link span { 
+.footer-link  { 
     color: #4D5AE5;
     font-size: 18px;
     font-weight: 700;
